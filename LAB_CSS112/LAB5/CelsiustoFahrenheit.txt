@@ -1,0 +1,6 @@
+10 Celsius = 50.00 Fahrenheit.
+11 Celsius = 51.80 Fahrenheit.
+12 Celsius = 53.60 Fahrenheit.
+13 Celsius = 55.40 Fahrenheit.
+14 Celsius = 57.20 Fahrenheit.
+15 Celsius = 59.00 Fahrenheit.
