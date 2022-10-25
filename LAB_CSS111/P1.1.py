@@ -7,8 +7,9 @@ def myreplace(words,old,new):
             res+=new
             flags+=1 
             i+=len(old)
-        res+=words[i]
-        i+=1
+        else:
+            res+=words[i]
+            i+=1
     ans=res+'\n'+str(flags)
     return ans
 words = input()
