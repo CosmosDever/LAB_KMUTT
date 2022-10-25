@@ -17,7 +17,7 @@ for i in range(len(num)):
     if st == 2 and int(num[i]) < int(num[i-1]):
         res="False"
         break
-    elif st == 1 and int(num[i]) > int(num[i-1]):
+    elif st == 2 and int(num[i]) > int(num[i-1]):
         st=0  
 print(res)                        
         
