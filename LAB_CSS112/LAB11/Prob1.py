@@ -4,4 +4,3 @@ def gen5odds():
         yield odd   
 def Problem1():
     return [sum(i) for i in gen5odds()]
-print(Problem1())
