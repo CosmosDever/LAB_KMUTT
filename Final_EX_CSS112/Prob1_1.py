@@ -1,2 +1,2 @@
 def Problem1_1(a):
-    return [True if x > 1 and all(x % y != 0 for y in range(2, x)) else False for x in a ]
+    return True if a > 1 and all(a % y != 0 for y in range(2, a)) else False
