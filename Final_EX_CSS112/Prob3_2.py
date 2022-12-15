@@ -7,8 +7,5 @@ def Problem3_2():
             twinprime = next(agen)
         except StopIteration:
             break
-        except:
-            break
-        else:
-            print(twinprime)
+        print(twinprime)
     return 'Ok'
