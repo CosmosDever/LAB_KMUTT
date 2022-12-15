@@ -3,8 +3,12 @@ import Prob3_1
 def Problem3_2():
     agen = Prob3_1.Problem3_1(35)
     for i in range(7):
-        #Your code here try
-        twinprime = next(agen)
-        #Your code here except
-        print(twinprime)
+        try:
+            twinprime = next(agen)
+        except StopIteration:
+            break
+        except:
+            break
+        else:
+            print(twinprime)
     return 'Ok'
