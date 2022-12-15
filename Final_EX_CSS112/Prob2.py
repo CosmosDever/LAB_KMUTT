@@ -29,4 +29,3 @@ def Problem2():
     msg  = anIndustrialArmRobot.serve()
     print(msg)
     return msg
-Problem2()
