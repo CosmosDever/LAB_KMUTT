@@ -1,6 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <cmath>
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -116,27 +113,27 @@ int main() {
         students.push_back(s);
     }
 
-    // Calculate MaxStudent
+    // MaxStudent
     Student maxStudent = MaxStudent();
     cout << "MaxStudent: " << maxStudent.name << endl;
 
-    // Calculate MinStudent
+    // MinStudent
     Student minStudent = MinStudent();
     cout << "MinStudent: " << minStudent.name << endl;
 
-    // Calculate AvrScore
+    // AvrScore
     int avrScore = AvrScore();
     cout << "AvrScore: " << avrScore << endl;
 
-    // Calculate ModeScore
+    // ModeScore
     int modeScore = ModeScore();
     cout << "ModeScore: " << modeScore << endl;
 
-    // Calculate MedianScore
+    // MedianScore
     int medianScore = MedianScore();
     cout << "MedianScore: " << medianScore << endl;
 
-    // Calculate SDScore
+    // SDScore
     double sdScore = SDScore();
     cout << "SDScore: " << sdScore << endl;
 
